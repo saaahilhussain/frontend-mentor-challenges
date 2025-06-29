@@ -56,6 +56,7 @@ h1 {
   font-family: "Outfit";
   font-weight: 300;
   font-size: 1.5rem;
+  color: var(--Stone-900);
 }
 
 .omelette {
@@ -133,4 +134,21 @@ h2 {
 
 .instructions ol li:not(:last-child) {
   margin-bottom: 0.7rem;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  padding: 1.3rem;
+  justify-items: centers;
+}
+.table > * {
+  border-bottom: 1px solid var(--Stone-150);
+  padding: 0.7rem;
+}
+
+.brown-black {
+  color: var(--Brown-800);
+  font-weight: 800;
 }
