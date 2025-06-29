@@ -28,23 +28,37 @@ Users should be able to:
 
 ### Screenshot
 
-[Will add after completing my solution]
+![](./assets/screenshot1.png)
+![](./assets/screenshot3.png)
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: [Github](https://github.com/saaahilhussain/frontend-mentor-challenges/tree/main/01-social-links-profile)
+- Live Site URL: (No live Site)
 
-### Built with
+### Built with pure HTML5 & CSS3
 
-[to be updated]
+- Semantic HTML5 markup
 
-Author
-Website - Add your name here
-Frontend Mentor - @yourusername
-Twitter - @yourusername
-Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.
+### What I learned
+
+While working on this project, I clarified my understanding of styling links nested inside list items. This project helped me develop a new approach
+
+### Continued development
+
+I have no specific plans yet, but I liked the design of this project and might incorporate similar designs in future projects.
+
+### Useful resources
+
+- [MDN Web Docs](https://developer.mozilla.org/) - Provided reliable documentation for HTML and CSS.
+- [W3Schools](https://www.w3schools.com/) - Offered clear examples and references for web development basics.
+
+## Author
+
+- Name - Sahil Hussain
+- Frontend Mentor - [@saaahilhussain](https://www.frontendmentor.io/profile/saaahilhussain)
+- Twitter - [@saaahilh](https://x.com/saaahilh)
 
 ## Acknowledgments
 
-[also to be updated]
+I learned everything for this project on my own using MDN Web Docs and W3Schools. While I learned JavaScript from Jonas Schmedtmann, it was not used in this project.
