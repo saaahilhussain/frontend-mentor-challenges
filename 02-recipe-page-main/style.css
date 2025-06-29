@@ -1,7 +1,7 @@
 :root {
   --Stone-100: hsl(30, 54%, 90%);
   --Stone-150: hsl(30, 18%, 87%);
-  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-600: hsl(32, 10%, 34%);
   --Stone-900: hsl(24, 5%, 18%);
 
   --Brown-800: hsl(14, 45%, 36%);
@@ -27,16 +27,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
   background-color: #fff;
-  margin-top: 14rem;
+  margin: 14rem auto;
   max-width: 800px;
   border-radius: 5rem;
   display: flex;
   flex-direction: column;
   padding: 5rem;
+  /* min-height: 70vh; */
+
+  @media only screen and (max-width: 800px) {
+    margin: 0;
+    border-radius: 0;
+  }
 }
 
 .container > *:not(:last-child) {
@@ -151,4 +161,11 @@ h2 {
 .brown-black {
   color: var(--Brown-800);
   font-weight: 800;
+}
+
+hr {
+  border: none; /* Remove default border */
+  height: 1px; /* Thickness of the line */
+  background-color: #c0c0c0; /* Change to any color you like */
+  margin: 2rem 0;
 }
