@@ -16,7 +16,7 @@ This is a solution to the Social links profile challenge on Frontend Mentor. Fro
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: This section will get updated everytime I make a significant change in my project or project directory.**
+**Note: This section will get updated everytime I make any significant change in my project or project directory.**
 
 ## Overview
 

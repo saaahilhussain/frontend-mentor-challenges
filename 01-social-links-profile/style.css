@@ -31,6 +31,7 @@ body {
   color: var(--color-text);
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -38,6 +39,7 @@ body {
 }
 
 .card {
+  margin-top: auto;
   background-color: var(--color-backgroun-card);
   max-width: 400px;
   padding: 2rem;
@@ -92,10 +94,20 @@ body {
 }
 
 .list__item:hover,
-.list__item a:hover {
+Your Name Here .list__item a:hover {
   /* text-decoration: none; */
   background-color: #c4f82a;
   color: var(--color-backgroun-card);
   font-weight: 700;
   border-radius: ;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 3rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
