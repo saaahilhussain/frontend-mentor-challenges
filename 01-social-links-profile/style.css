@@ -87,14 +87,8 @@ body {
   display: block;
   text-decoration: none;
   color: var(--color-text);
-  font-weight: 700;
-}
-
-.list__item:link,
-.list__item:visited {
-  text-decoration: none;
-  color: var(--color-text);
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 .list__item:hover,
@@ -103,5 +97,5 @@ body {
   background-color: #c4f82a;
   color: var(--color-backgroun-card);
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: ;
 }
